@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  padding: 20px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#score,
+#high-score {
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+}
+
+#reset {
+  display: block;
+  margin: 10px auto 0 auto;
+}
+
+.hidden {
+  display: none !important;
+  margin: none !important;
+}
